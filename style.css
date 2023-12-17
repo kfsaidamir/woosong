@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    width: 100%;
+    height: 22vh;
+    background-color: #17365a;
+}
+
+.country {
+    right: 10%;
+    top: 5%;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+}
+
+.korea {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.korea > img {
+    width: 20px;
+}
+
+.chinese > img {
+    width: 20px;
+}
+
+.chinese {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.korea > h2 {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.chinese > h2 {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+nav a > img {
+    width: 40px;
+}
+
+.logo > img {
+    cursor: pointer;
+    width: 180px;
+}
+
+.logo > img:hover {
+    transform: scale(1.1);
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.search {
+    gap: 8px;
+    padding: 7px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    display: flex;
+}
+
+.search > img {
+    cursor: pointer;
+    width: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.span {
+    color: rgba(1, 150, 1, 0.829);
+}
+
+.span2 {
+    color: rgb(3, 3, 203);
+}
+
+.span3 {
+    color: rgb(190, 37, 37);
+}
+
+body {
+    border: 3px solid rgb(28, 28, 132);
+}
+
+#section {
+    padding: 10px 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/bac.png);
+    width: 100%;
+    height: 90vh;
+}
+
+#section > h1 {
+    position: absolute;
+    color: black;
+    letter-spacing: 3px;
+    right: 66%;
+    bottom: 20%;
+}
+
+.Overal {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    position: absolute;
+    bottom: 5%;
+}
+
+.buttons {
+    cursor: pointer;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+.buttons > p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.buttons:hover {
+    background-color: white;
+    transform: scale(1.1)
+}
+
+#section2 {
+    padding: 10px 120px;
+    margin-top: 40px;
+    width: 100%;
+    height: 90vh;
+}
+
+.line > h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.line > img {
+    width: 160px;
+}
+
+.line > p {
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 640px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes:hover {
+    transform: scale(0.9);
+}
+
+.boxes {
+    border: 2px solid black;
+    transition: .5s ease;
+    width: 300px;
+    height: 300px;
+}
+
+.boxes > img {
+    width: 80%;
+}
+
+.box {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#section3 {
+    padding: 10px 100px;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://smapse.ru/storage/2020/05/woosong-university-smapse8.jpg);
+}
+
+.text1 > h1 {
+    color: white;
+    bottom: 70%;
+    letter-spacing: 3px;
+    position: absolute;
+    font-size: 50px;
+}
+
+.text1 > p {
+    font-weight: 900;
+    color: white;
+    width: 600px;
+    bottom: 45%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.span4 {
+    color: rgb(19, 19, 176);
+}
+
+.overal2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2 {
+    border-radius: 30px;
+    padding: 10px 50px;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+}
+
+.text2:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
+
+.text2 > h1 {
+    font-weight: 600;
+    color: rgb(19, 19, 176);
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.overal3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section4 {
+    padding: 10px 100px;
+    width: 100%;
+    height: 90vh;
+    margin-top: 90px;
+}
+
+.text4  > h1 {
+    color: rgb(19, 19, 176);
+    font-size: 50px;
+}
+
+.text5 > h1 {
+    color: rgb(19, 19, 176);
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.con1 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgb(201, 201, 201);
+}
+
+.con1 > img {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.con2 {
+    padding:10px 30px;
+    border: 3px solid rgb(201, 201, 201);
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+}
+
+.con1:hover {
+    transform: scale(0.9);
+}
+
+.con2:hover {
+    transform: scale(0.9);
+}
+
+.info > p {
+    margin-top: 10px;
+    color: white;
+}
+
+.info {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    bottom: 0%;
+    background-color: rgb(42, 41, 41);
+    position: absolute;
+}
+
+.con2 > P {
+    font-weight: 700;
+    bottom: 40%;
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+.span5 {
+    color: gray;
+}
+
+#section5 {
+    padding: 10px 120px;
+    width: 100%;
+    background-color: rgb(198, 198, 198);
+    height: 30vh;
+} 
+
+.overal6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.text6 > h1 {
+    color: rgb(19, 19, 176);
+    font-size: 40px;
+}
+
+.text7 > h1 {
+    text-align: center;
+    color: rgb(19, 19, 176);
+    font-size: 40px
+}
+
+.text7 > a:hover {
+    background-color: white;
+}
+
+.text7 > a {
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: rgb(19, 19, 176);
+    text-decoration: none;
+    border: 3px solid rgb(19, 19, 176);
+    font-size: 20px
+}
+
+.text6 > img {
+    text-align: center;
+    margin: 5px;
+    width: 40px;
+}
+
+#section6 {
+    width: 100%;
+    height: 55vh;
+    padding: 10px 120px;
+}
+
+.overal7 {
+    margin-top: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.over > h1 {
+    cursor: pointer;
+    color: gray;
+}
+
+.over > h1:hover {
+    color: rgb(19, 19, 176);
+}
+
+.over > p {
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.over > p:hover {
+    color: rgb(19, 19, 176);
+}
+
+footer {
+    width: 100%;
+    height: 35vh;
+}
+
+.overal8 {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+}
+
+.over1 {
+    width: 40%;
+    background-color: #17365a;
+    height: 35vh;
+}
+
+.over1 > img {
+    bottom: 25%;
+    right: 80%;
+    position: absolute;
+    width: 130px;
+}
+
+.over2 {
+    padding: 10px 100px;
+    width: 60%;
+    background-color: #102b4f;
+    height: 35vh;
+}
+
+.over2 > h2 {
+    bottom: 60%;
+    position: absolute;
+    color: white;
+    font-size: 20px
+}
+
+.over2 > p {
+    font-size: 20px;
+    bottom: 40%;
+    position: absolute;
+    color: white;
+}
+
+.span6 {
+    color: red;
+}
